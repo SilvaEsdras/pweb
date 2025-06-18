@@ -1,0 +1,118 @@
+body {
+    clear: both;
+}
+
+.header {
+    position: absolute;
+    background: lightskyblue;
+    width: 100%;
+    height: 15%;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    align-content: center;
+}
+
+.propaganda {
+    position: absolute;
+    width: 15%;
+    height: 85%;
+    top: 15%;
+    left: 0px;
+    right: 85%;
+    background: rgb(194, 240, 255);
+}
+
+.menu {
+    position: absolute;
+    width: 70%;
+    height: 85%;
+    left: 15%;
+    top: 15%;
+    right: 15%;
+    background: rgba(202, 225, 233, 0.849);
+    align-content: center;
+}
+
+.aside {
+    position: absolute;
+    width: 15%;
+    height: 85%;
+    left: 85%;
+    right: 0px;
+    top: 15%;
+    background: rgb(194, 240, 255);
+    text-align: center;
+}
+
+.footer {
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    height: 10%;
+    left: 0px;
+    right: 0px;
+    background: rgb(171, 223, 255);
+    align-content: center;
+}
+
+.noticia {
+    text-align: justify;
+    padding: 5px;
+    margin: 10px;
+    width: 440px;
+    height: 240px;
+    float: left;
+    border-radius: 5px;
+    background: white;
+
+}
+
+span {
+    font-size: 10px;
+}
+
+footer {
+    font-size: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+h2 {
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h3 {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+h6 {
+    font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.imagem {
+    width: 150px;
+    border-radius: 5px;
+    float: left;
+    margin: 5px;
+}
+
+.imagem2 {
+    width: 130px;
+    padding: 5px;
+}
+
+p {
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
