@@ -1,0 +1,73 @@
+#header {
+    position: fixed;
+    background: lightskyblue;
+    width: 100%;
+    height: 15%;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    align-content: center;
+    z-index: 1000;
+}
+
+#menu {
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    background: lightcoral;
+    top: 15%;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    align-content: center;
+
+}
+
+#left {
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    left: 0%;
+    right: 75%;
+    top: 25%;
+    text-align: center;
+    align-content: center;
+    background: rgb(233, 194, 66);
+}
+
+#center {
+    position: absolute;
+    left: 25%;
+    width: 50%;
+    height: 100%;
+    top: 25%;
+    right: 25%;
+    text-align: center;
+    align-content: center;
+    background: rgb(109, 211, 78);
+}
+
+#right {
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    left: 75%;
+    right: 0%;
+    top: 25%;
+    text-align: center;
+    align-content: center;
+    background: rgb(236, 171, 72);
+}
+
+#footer {
+    position: absolute;
+    background: rgb(187, 109, 240);
+    width: 100%;
+    height: 10%;
+    left: 0%;
+    right: 0%;
+    top: 125%;
+    text-align: center;
+    align-content: center;
+}
