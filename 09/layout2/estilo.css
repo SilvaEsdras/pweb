@@ -44,6 +44,7 @@
     text-align: center;
     align-content: center;
     background: rgb(109, 211, 78);
+    z-index: 1000;
 }
 
 #footer {
