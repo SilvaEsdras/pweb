@@ -1,0 +1,71 @@
+.conteiner{
+    clear: both;
+}
+.flor{
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 20px;
+}
+.circulo{
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 20px;
+}
+.box1{
+    width: 100px;
+    height: 100px;
+    float: left;
+    background: red;
+    border-radius: 90px 90px 0px 90px;
+}
+.box2{
+    width: 100px;
+    height: 100px;
+    float: left;
+    background: orange;
+    border-radius: 90px 90px 90px 0px;
+}
+.box3{
+    width: 100px;
+    height: 100px;
+    float: left;
+    background: green;
+    border-radius: 90px 0px 90px 90px;
+}
+.box4{
+    width: 100px;
+    height: 100px;
+    float: left;
+    background: purple;
+    border-radius: 0px 90px 90px 90px;
+}
+.box5{
+    width: 100px;
+    height: 100px;
+    float: left;
+    background: red;
+    border-radius: 100px 0px 0px 0px;
+}
+.box6{
+    width: 100px;
+    height: 100px;
+    float: left;
+    background: orange;
+    border-radius: 0px 100px 0px 0px;
+}
+.box7{
+    width: 100px;
+    height: 100px;
+    float: left;
+    background: green;
+    border-radius: 0px 0px 0px 100px;
+}
+.box8{
+    width: 100px;
+    height: 100px;
+    float: left;
+    background: purple;
+    border-radius: 0px 0px 100px 0px;
+}

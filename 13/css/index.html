@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Programação Web </title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" type="text/css" href="normalize.css">
+    <style>
+        .box {
+            background: beige;
+            width: 300px;
+            height: 140px;
+            padding: 10px;
+            margin: 10px;
+            border: 1px solid red;
+            border-radius: 10px 40px;
+            -webkit-border-radius: 20px;
+            -moz-border-radius: 20px;
+        }
+
+        .box2 {
+            background: beige;
+            width: 300px;
+            height: 140px;
+            padding: 10px;
+            margin: 10px;
+            border: 1px solid red;
+            border-radius: 10px 40px;
+            -webkit-border-radius: 20px;
+            -moz-border-radius: 20px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <p>
+            Sem Box-sizing<br>
+            width: 300px;<br>
+            height: 140px;<br>
+            padding: 10px;<br>
+            margin: 10px;<br>
+            border: 1px;<br>
+        </p>
+    </div>
+    <div class="box2">
+        <p>
+            Com Box-sizing<br>
+            width: 300px;<br>
+            height: 140px;<br>
+            padding: 10px;<br>
+            margin: 10px;<br>
+            border: 1px;<br>
+        </p>
+    </div>
+</body>
