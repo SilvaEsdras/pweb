@@ -1,0 +1,5 @@
+#box {
+    padding: 500px;
+    margin: 10px;
+    background: linear-gradient(to top right, rgb(78, 210, 250), rgb(205, 42, 226), rgb(0, 218, 0), red);
+}

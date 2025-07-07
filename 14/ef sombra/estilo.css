@@ -1,0 +1,25 @@
+.shadow1 {
+    padding: 10px;
+    box-shadow: 1px 5px 8px;
+    margin: 10px;
+    background: pink;
+    border-radius: 5px;
+}
+
+h1 {
+    border-radius: 5px;
+    border-style: dashed;
+    border-color: white;
+    padding: 100px;
+    margin: 20px;
+    text-align: center;
+    color: white;
+}
+
+.shadow2 {
+    padding: 10px;
+    box-shadow: 1px 5px 8px;
+    margin: 10px;
+    background: rgb(255, 255, 157);
+    border-radius: 5px;
+}
