@@ -2,8 +2,8 @@
     position: relative;
     left: 10px;
     top: 10px;
-    width: 100px; /* Increased width */
-    height: 100px; /* Increased height */
+    width: 100px; 
+    height: 100px; 
     background: red;
     animation-name: minhaAnimacao;
     animation-duration: 10s;
@@ -18,7 +18,7 @@
     }
 
     to {
-        left: 50px; /* Keep the final left position or adjust it */
+        left: 50px; 
         transform: rotate(90deg);
         background: blue;
     }
