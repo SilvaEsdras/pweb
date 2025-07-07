@@ -1,0 +1,25 @@
+.box {
+    position: relative;
+    left: 10px;
+    top: 10px;
+    width: 100px; /* Increased width */
+    height: 100px; /* Increased height */
+    background: red;
+    animation-name: minhaAnimacao;
+    animation-duration: 10s;
+    animation-iteration-count: 4;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+}
+
+@keyframes minhaAnimacao {
+    from {
+        left: 10px;
+    }
+
+    to {
+        left: 50px; /* Keep the final left position or adjust it */
+        transform: rotate(90deg);
+        background: blue;
+    }
+}
