@@ -1,0 +1,116 @@
+body {
+    background-color: #e0e0e0;
+    /* Softer gray background */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* More modern font */
+    padding: 20px;
+    /* Slightly more padding around the content */
+    margin: 0;
+    /* Reset default margin */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Center content on the page */
+    min-height: 100vh;
+    /* Ensure the body covers the whole viewport */
+}
+
+.card {
+    background: #f0f8ff;
+    /* Lighter, more appealing background color (Alice Blue) */
+    border: 1px solid #8a2be2;
+    /* More vibrant purple border (Blue Violet) */
+    border-radius: 8px;
+    /* Slightly more rounded corners */
+    text-align: center;
+    font-size: 16px;
+    /* Slightly larger, more readable font size */
+    padding: 15px;
+    /* More padding inside the card */
+    margin: 15px;
+    /* Slightly more margin around the card */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    /* Softer shadow */
+    transition: box-shadow 0.3s ease-in-out;
+    /* Smooth transition for hover effect */
+}
+
+.card:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    /* Enhanced shadow on hover */
+}
+
+.btn-container {
+    display: flex;
+    gap: 25px;
+    /* Slightly increased gap between buttons */
+    margin-top: 30px;
+    /* More top margin */
+    justify-content: center;
+    /* Center buttons horizontally */
+}
+
+.btn-custom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90px;
+    /* Slightly wider button area */
+    padding: 10px;
+    /* Add some padding to the button */
+    border-radius: 5px;
+    /* Match card border-radius */
+    background-color: #fff;
+    /* White button background */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    /* Subtle button shadow */
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    /* Smooth hover effects */
+}
+
+.btn-custom:hover {
+    transform: scale(1.05);
+    /* Slightly scale up on hover */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    /* Enhanced button shadow on hover */
+}
+
+.btn-custom i {
+    color: #6c757d;
+    /* Bootstrap's secondary color for a softer gray */
+    font-size: 1.5em;
+    /* Make icons a bit larger */
+    margin-bottom: 5px;
+    /* Add some space between icon and text (if any) */
+}
+
+.profile-card {
+    background-color: #ffffff;
+    /* Pure white background */
+    border-radius: 10px;
+    padding: 20px;
+    /* More padding */
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* More pronounced shadow */
+    width: 300px;
+    /* Example fixed width for profile card */
+    margin: 20px auto;
+    /* Center the profile card */
+}
+
+.imagem {
+    width: 140px;
+    /* Slightly larger image */
+    height: 140px;
+    /* Slightly larger image */
+    border-radius: 50%;
+    margin-bottom: 20px;
+    /* More bottom margin */
+    border: 6px solid #e0e0e0;
+    /* Border color matches the body background */
+    object-fit: cover;
+    /* Ensure the image fills the circle without distortion */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow for the image */
+}
