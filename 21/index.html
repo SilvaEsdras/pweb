@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Alert, Tooltips e Popover </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <div class="container my-4">
+        <h2>Alerts</h2>
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+            <strong>Sucesso!</strong> Você deveria <a href="#" class="alert-link">ler esta mensagem</a>.
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+
+        <div class="alert alert-info alert-dismissible fade show" role="alert">
+            <strong>Informação!</strong> Indica uma mudança ou ação informativa neutra.
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+
+        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+            <strong>Atenção!</strong> Indica um aviso que pode precisar de atenção.
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+
+        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+            <strong>Perigo!</strong> Indica uma ação perigosa ou potencialmente negativa.
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+    </div>
+
+    <div class="container my-4">
+        <h2>Tooltips</h2>
+        <p>Passe o mouse sobre os botões para ver as dicas:</p>
+        <button type="button" class="btn btn-primary" data-toggle="tooltip" data-placement="right"
+            title="Detalhes importantes sobre este item.">Dica à Direita</button>
+
+        <button type="button" class="btn btn-success ml-2" data-toggle="tooltip" data-placement="top"
+            title="Uma dica útil no topo.">Dica no Topo</button>
+
+        <button type="button" class="btn btn-info ml-2" data-toggle="tooltip" data-placement="bottom"
+            title="Informações adicionais abaixo.">Dica na Parte Inferior</button>
+
+        <button type="button" class="btn btn-warning ml-2" data-toggle="tooltip" data-placement="left"
+            title="Dica mostrando à esquerda.">Dica à Esquerda</button>
+
+        <div class="btn-group mt-3" role="group" aria-label="Controles de mídia">
+            <button type="button" class="btn btn-light" data-toggle="tooltip" data-placement="top" title="Tocar">
+                <i class="fas fa-play"></i>
+            </button>
+            <button type="button" class="btn btn-light" data-toggle="tooltip" data-placement="top" title="Pausar">
+                <i class="fas fa-pause"></i>
+            </button>
+            <button type="button" class="btn btn-light" data-toggle="tooltip" data-placement="top" title="Parar">
+                <i class="fas fa-stop"></i>
+            </button>
+        </div>
+    </div>
+
+    <div class="container my-4">
+        <h2>Popovers</h2>
+        <p>Clique nos botões para exibir o conteúdo:</p>
+        <button type="button" class="btn btn-lg btn-danger" data-toggle="popover" title="Detalhes Importantes!!"
+            data-content="Aqui estão alguns detalhes breves e importantes." data-placement="right"
+            data-trigger="click">Detalhes à Direita</button>
+
+        <button type="button" class="btn btn-lg btn-info ml-2" data-toggle="popover" title="Informação Adicional"
+            data-content="Esta é uma informação adicional útil." data-placement="top" data-trigger="click">Informação no
+            Topo</button>
+
+        <button type="button" class="btn btn-lg btn-success ml-2" data-toggle="popover" title="Ação Concluída"
+            data-content="A ação foi concluída com sucesso." data-placement="bottom" data-trigger="focus">Ação na Parte
+            Inferior (Focus)</button>
+
+        <button type="button" class="btn btn-lg btn-warning ml-2" data-toggle="popover" title="Aviso"
+            data-content="Este é um aviso importante." data-placement="left" data-trigger="hover">Aviso à Esquerda
+            (Hover)</button>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript">
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip();
+            $('[data-toggle="popover"]').popover();
+        });
+    </script>
+</body>
+
+</html>

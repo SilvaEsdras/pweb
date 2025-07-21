@@ -1,0 +1,123 @@
+.bg-red-white-text {
+    background-color: #dc3545;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.bg-red-white-text .navbar-brand,
+.bg-red-white-text .nav-link {
+    color: white;
+    font-weight: bold;
+}
+
+.bg-red-white-text .nav-link:hover {
+    color: #f8f9fa;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+.card {
+    background: #e7f1ff;
+    border: 1px solid #6c757d;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 16px;
+    padding: 15px;
+    margin: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.form-check {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}
+
+.form-check input {
+    margin-right: 15px;
+    width: 1.2em;
+    height: 1.2em;
+}
+
+.btn-facebook {
+    background-color: #3b5998;
+    color: white;
+    margin-bottom: 15px;
+    width: 100%;
+    text-align: left;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-facebook:hover {
+    background-color: #30487a;
+}
+
+.btn-google {
+    background-color: #db4437;
+    color: white;
+    width: 100%;
+    text-align: left;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-google:hover {
+    background-color: #c53e32;
+}
+
+.btn-social i {
+    margin-right: 15px;
+    font-size: 1.2em;
+}
+
+.input-icon {
+    position: relative;
+}
+
+.input-icon i {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #888;
+    font-size: 1.1em;
+}
+
+p {
+    text-align: center;
+    margin: 25px 0;
+    font-size: 16px;
+    color: #555;
+}
+
+.links {
+    margin: 25px;
+}
+
+.links a {
+    color: #007bff;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.links a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
