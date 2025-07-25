@@ -1,0 +1,123 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    /* A very light gray background */
+    padding: 20px;
+}
+
+.container {
+    max-width: 960px;
+    /* Limits the width of the main content for better readability */
+    margin-top: 30px;
+    /* Adds space above the content */
+    padding: 20px;
+    background-color: #ffffff;
+    /* White background for the content area */
+    border-radius: 8px;
+    /* Slightly rounded corners */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    /* Soft shadow for depth */
+}
+
+/* Styling for the button groups */
+.container>div {
+    margin-bottom: 25px;
+    /* Adds space between each functional block */
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e9ecef;
+    /* A subtle line to separate sections */
+}
+
+.container>div:last-child {
+    border-bottom: none;
+    /* No border for the last section */
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+/* Specific button styles */
+.btn-danger {
+    background-color: #dc3545;
+    /* Bootstrap's danger red */
+    border-color: #dc3545;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    /* Smooth hover effects */
+    margin-right: 10px;
+    /* Space between buttons */
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+    /* Darker red on hover */
+    border-color: #bd2130;
+    transform: translateY(-2px);
+    /* Slight lift on hover */
+}
+
+/* Styling for the text output area */
+#minhaDiv {
+    margin-top: 15px;
+    padding: 15px;
+    border: 1px solid #ced4da;
+    /* Light gray border */
+    border-radius: 5px;
+    background-color: #e9ecef;
+    /* Light gray background */
+    color: #495057;
+    /* Darker text color */
+    font-size: 1.1em;
+    min-height: 50px;
+    /* Ensure visibility even if empty */
+    display: flex;
+    /* Use flex to center text */
+    align-items: center;
+    /* Vertically center text */
+    justify-content: center;
+    /* Horizontally center text */
+    text-align: center;
+}
+
+/* Styling for the "Escreva" link */
+a[href^="javascript:"] {
+    /* Targets links executing JS */
+    display: inline-block;
+    /* Allows padding and margin */
+    margin-top: 15px;
+    color: #007bff;
+    /* Bootstrap's primary blue */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+a[href^="javascript:"]:hover {
+    color: #0056b3;
+    /* Darker blue on hover */
+    text-decoration: underline;
+}
+
+/* Modal specific overrides if needed (Bootstrap handles most of this) */
+.modal-header {
+    background-color: #007bff;
+    color: white;
+    border-top-left-radius: calc(0.3rem - 1px);
+    border-top-right-radius: calc(0.3rem - 1px);
+}
+
+.modal-header .btn-close {
+    filter: invert(1);
+    /* Makes the close button white */
+}
+
+.modal-footer .btn-second {
+    /* Assuming btn-second is a custom class or typo for btn-secondary */
+    background-color: #6c757d;
+    /* Bootstrap secondary color */
+    color: white;
+    border-color: #6c757d;
+}
+
+.modal-footer .btn-second:hover {
+    background-color: #5a6268;
+    border-color: #545b62;
+}
