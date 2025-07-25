@@ -1,0 +1,135 @@
+/* General body styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    /* Light background */
+    padding: 25px;
+    margin: 0;
+    color: #333;
+    /* Default text color */
+}
+
+/* Container for each section (Linguagens, Frutas, Generica, Notas) */
+#container1,
+#container2,
+#container3,
+#container4 {
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    /* Light border */
+    border-radius: 8px;
+    /* Rounded corners */
+    padding: 20px;
+    margin-bottom: 20px;
+    /* Space between sections */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    /* Subtle shadow */
+    font-size: 1.1em;
+    /* Slightly larger text */
+    min-height: 80px;
+    /* Ensure visibility even if content is small */
+    display: flex;
+    /* Use flexbox for initial content if it's a single line */
+    align-items: center;
+    /* Vertically align content */
+    flex-wrap: wrap;
+    /* Allow content to wrap */
+}
+
+/* Styling for buttons */
+.btn-danger {
+    background-color: #dc3545;
+    /* Bootstrap danger red */
+    border-color: #dc3545;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    /* Smooth transition */
+    margin-right: 10px;
+    /* Space between buttons */
+    margin-bottom: 10px;
+    /* Space below buttons */
+    padding: 10px 15px;
+    /* Comfortable padding */
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+    /* Darker red on hover */
+    border-color: #bd2130;
+    transform: translateY(-2px);
+    /* Slight lift on hover */
+}
+
+/* Horizontal rule styling */
+hr {
+    border-top: 1px solid #dee2e6;
+    /* Light gray line */
+    margin: 30px 0;
+    /* More vertical space around hr */
+}
+
+/* Styling for lists created by JavaScript (inside containers) */
+#container3 ul,
+#container4 ul {
+    list-style: none;
+    /* Remove default bullet points */
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    /* Take full width of parent container */
+}
+
+#container3 li,
+#container4 li {
+    background-color: #e9ecef;
+    /* Light gray background for list items */
+    margin-bottom: 5px;
+    /* Space between list items */
+    padding: 8px 12px;
+    border-radius: 5px;
+    /* Rounded corners for list items */
+    display: flex;
+    /* Use flex to align content if needed */
+    align-items: center;
+}
+
+/* Styling for the dynamically created boxes */
+#container5 {
+    display: flex;
+    flex-wrap: wrap;
+    /* Allow boxes to wrap to the next line */
+    justify-content: center;
+    /* Center boxes horizontally */
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.box {
+    width: 100px;
+    /* Base width */
+    height: 100px;
+    /* Base height */
+    margin: 10px;
+    color: white;
+    padding: 10px;
+    border: 1px solid #343a40;
+    /* Darker border for the boxes */
+    display: inline-flex;
+    /* Use inline-flex to allow custom dimensions while aligning content */
+    justify-content: center;
+    /* Center content horizontally within the box */
+    align-items: center;
+    /* Center content vertically within the box */
+    text-align: center;
+    line-height: normal;
+    /* Reset line-height if content is multi-line */
+    border-radius: 5px;
+    /* Default border-radius, will be overridden by inline styles */
+    font-weight: bold;
+    /* Make content bold */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    /* Add a distinct shadow for boxes */
+}
