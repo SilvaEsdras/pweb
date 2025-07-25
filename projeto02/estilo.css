@@ -1,0 +1,204 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+
+.container.mt-4 {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    padding: 30px;
+}
+
+.d-flex.justify-content-between.mb-3 {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e9ecef;
+    margin-bottom: 30px !important;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.d-flex.justify-content-between.mb-3 .btn {
+    flex-grow: 1;
+    min-width: 120px;
+    padding: 12px 15px;
+    font-size: 0.95em;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+.d-flex.justify-content-between.mb-3 .btn i {
+    margin-right: 8px;
+}
+
+.row>.col-md-10>h4 {
+    color: #343a40;
+    margin-bottom: 0;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #dee2e6;
+}
+*/
+.row>.col-md-2>div {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.row>.col-md-2 .btn-default {
+    background-color: #f8f9fa;
+    border-color: #dee2e6;
+    color: #6c757d;
+    padding: 5px 8px;
+}
+
+.row>.col-md-2 .btn-default:hover {
+    background-color: #e9ecef;
+    border-color: #dee2e6;
+}
+
+.card-body {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #e9ecef;
+    margin-bottom: 25px;
+}
+
+.form-group label {
+    font-weight: 600;
+    color: #495057;
+}
+
+#searchForm .btn {
+    margin-right: 10px;
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 0.95em;
+}
+
+.modal-header h4.modal-title {
+    color: #343a40;
+}
+
+.d-flex.justify-content-between.align-items-center.mb-2 {
+    margin-bottom: 20px !important;
+    padding: 15px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.d-flex.justify-content-between.align-items-center.mb-2>div {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.d-flex.justify-content-between.align-items-center.mb-2 label {
+    margin-bottom: 0;
+    font-weight: 500;
+    color: #495057;
+}
+
+.d-inline-block.w-auto {
+    min-width: 80px;
+}
+
+.table-responsive {
+    margin-bottom: 30px;
+}
+
+.table {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.table thead.thead-light th {
+    background-color: #e9ecef;
+    color: #495057;
+    font-weight: 600;
+    padding: 12px 15px;
+    vertical-align: middle;
+    border-bottom: 2px solid #dee2e6;
+}
+
+.table tbody tr {
+    transition: background-color 0.2s ease;
+}
+
+.table tbody tr:hover {
+    background-color: #f1f3f5;
+}
+
+.table tbody td {
+    vertical-align: middle;
+    padding: 12px 15px;
+    color: #343a40;
+}
+
+.badge {
+    padding: 0.5em 0.7em;
+    font-size: 0.8em;
+}
+
+.table tbody .btn.btn-sm {
+    padding: 6px 10px;
+    margin-right: 5px;
+    border-radius: 5px;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.table tbody .btn.btn-sm.text-secondary {
+    color: #6c757d !important;
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+
+.table tbody .btn.btn-sm.text-secondary:hover {
+    background-color: #e9ecef;
+    color: #343a40 !important;
+    border-color: #e9ecef;
+}
+
+#deletar .modal-header {
+    background-color: #dc3545;
+    color: white;
+}
+
+#deletar .modal-header .modal-title {
+    color: white;
+}
+
+#deletar .modal-header .close {
+    color: white;
+    opacity: 1;
+}
+
+#deletar .modal-footer .btn-light {
+    background-color: #f8f9fa;
+    color: #343a40;
+    border-color: #dee2e6;
+}
+
+#deletar .modal-footer .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.modal-header .btn-close {
+    background: transparent url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000'%3e%3cpath d='M.293.293a1 1 0 011.414 0L8 6.586 14.293.293a1 1 0 111.414 1.414L9.414 8l6.293 6.293a1 1 0 01-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 01-1.414-1.414L6.586 8 .293 1.707a1 1 0 010-1.414z'/%3e%3c/svg%3e") center/1em auto no-repeat;
+    opacity: .5;
+    border: none;
+    padding: .5rem;
+    cursor: pointer;
+    font-size: 0;
+}
+
+.modal-header .btn-close span {
+    display: none;
+}
