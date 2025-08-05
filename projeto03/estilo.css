@@ -1,46 +1,36 @@
-/* General body styling */
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #e9ecef;
-    /* A slightly darker light gray for more contrast */
 }
 
-/* Main container and card styling */
 .container {
     max-width: 900px;
-    /* Limit the container's width for a cleaner look */
 }
 
 .bg-white {
     border: 1px solid #dee2e6;
-    /* Add a subtle border to the cards */
 }
 
 .rounded {
     border-radius: 0.5rem !important;
-    /* Ensure rounded corners are applied */
 }
 
 .shadow-sm {
     box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075) !important;
-    /* Keep a light shadow */
 }
 
-/* Heading and button styling */
 h2,
 h3 {
     color: #007bff;
-    /* Use Bootstrap's primary color for headings */
     font-weight: 600;
 }
 
 .form-label {
     font-weight: 500;
     color: #495057;
-    /* Darker gray for labels */
 }
 
-/* Styling for the input fields */
 .form-control {
     border-radius: 0.25rem;
     border-color: #ced4da;
@@ -48,10 +38,8 @@ h3 {
     font-size: 1rem;
 }
 
-/* Styling for the buttons */
 .btn-danger {
     background-color: #dc3545;
-    /* Bootstrap danger red */
     border-color: #dc3545;
     transition: background-color 0.3s ease, transform 0.2s ease;
     padding: 10px 20px;
@@ -61,23 +49,18 @@ h3 {
 
 .btn-danger:hover {
     background-color: #c82333;
-    /* Darker red on hover */
     border-color: #bd2130;
     transform: translateY(-2px);
-    /* Slight lift on hover */
 }
 
-/* New button for clearing the form */
 #limpar {
     background-color: #6c757d;
-    /* Bootstrap secondary color */
     border-color: #6c757d;
     transition: background-color 0.3s ease, transform 0.2s ease;
     padding: 10px 20px;
     font-size: 1em;
     font-weight: 600;
     margin-left: 10px;
-    /* Space between the two buttons */
 }
 
 #limpar:hover {
