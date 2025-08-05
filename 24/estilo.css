@@ -1,50 +1,35 @@
-/* General body styling for a clean, professional look */
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #f8f9fa;
-    /* Light background for the page */
     padding: 20px;
     line-height: 1.6;
 }
 
-/* Styles for the main container and titles */
 .container {
     background-color: #ffffff;
-    /* White background for the main content area */
     border-radius: 8px;
-    /* Softly rounded corners */
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-    /* A subtle shadow for depth */
     padding: 30px;
-    /* Increased padding inside the container */
     margin-bottom: 30px;
-    /* Space between the two main containers */
 }
 
 .container .title {
     padding: 15px;
-    /* Padding inside the title box */
     border-radius: 5px;
-    /* Rounded corners for the title */
     border: 1px solid #e9ecef;
-    /* A light border */
 }
 
 h1 {
     color: #343a40;
-    /* Dark color for headings */
     font-weight: 600;
-    /* Bolder font for prominence */
 }
 
 h4 {
     color: #007bff;
-    /* Bootstrap's primary color for subheadings */
     margin-bottom: 15px;
-    /* Space below the subheading */
 }
 
-/* Styling for the interactive content sections */
 .row {
     margin-top: 20px;
 }
@@ -55,20 +40,15 @@ h4 {
 
 .row p {
     color: #ffffff;
-    /* White text for contrast on colored backgrounds */
     padding: 15px;
-    /* Padding inside the paragraph */
     border-radius: 5px;
     font-size: 1rem;
     font-weight: 500;
     margin-bottom: 10px;
-    /* Space between paragraphs */
 }
 
-/* Styling for the colored boxes */
 .caixa {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    /* Subtle shadow for the boxes */
     border-radius: 5px;
 }
 
@@ -84,31 +64,23 @@ h4 {
     justify-content: center;
     border-radius: 5px;
     cursor: pointer;
-    /* Indicates the elements are clickable */
     transition: transform 0.2s ease, box-shadow 0.2s ease;
-    /* Smooth hover effect */
 }
 
 .caixa1:hover,
 .caixa2:hover,
 .caixa3:hover {
     transform: translateY(-3px);
-    /* Lifts the box on hover */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
-    /* Enhanced shadow on hover */
 }
 
-/* Form input styling */
 .form-control {
     border-radius: 5px;
 }
 
-/* Button styling */
 .btn {
     margin-right: 10px;
-    /* Space between buttons */
     margin-bottom: 10px;
-    /* Space below buttons */
     padding: 10px 15px;
     font-size: 0.95em;
     font-weight: 500;
@@ -117,7 +89,6 @@ h4 {
 
 .btn:hover {
     transform: translateY(-2px);
-    /* Lifts the button on hover */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
 }
 
